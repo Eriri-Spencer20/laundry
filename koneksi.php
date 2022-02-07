@@ -9,5 +9,3 @@ try{
 }catch(PDOException $e){
     echo 'KONEKSI GAGAL' .$e -> getMessage();
 }
-
-?>
